@@ -23,7 +23,7 @@ import {
 } from '../components';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import theme from 'react-syntax-highlighter/dist/styles/monokai-sublime';
-
+/*eslint-disable no-template-curly-in-string */
 class Home extends Component {
   render() {
     return (

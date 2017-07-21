@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.input.attrs({
-  type: 'text',
-  padding: props => props.size || '1em'
+  type: 'text'
 })`
   color: palevioletred;
   font-size: 1em;
