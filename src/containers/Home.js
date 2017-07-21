@@ -30,6 +30,12 @@ class Home extends Component {
       <Deck navigation={true} routing={true} slideCount={true} color="#1D1F27">
         <Slide transition="cross-fade" bgColor="#1D1F27">
           <Center>
+            <H1 color="rgb(219, 112, 147)">Slides at</H1>
+            <H3 color="#DA9962">styled.nearbycoder.com</H3>
+          </Center>
+        </Slide>
+        <Slide transition="cross-fade" bgColor="#1D1F27">
+          <Center>
             <H1 color="rgb(219, 112, 147)">Styled Components</H1>
             <H3 color="#DA9962">The Future of Styling Web Apps</H3>
             <H5 color="rgb(219, 112, 147)" right p="10px">
