@@ -31,9 +31,14 @@ class Deck extends Component {
     };
 
     document.onkeydown = e => {
+      console.log(e);
       switch (e.keyCode) {
         case 37:
           //left
+          this.prevSlide();
+          break;
+        case 33:
+          //pageUp
           this.prevSlide();
           break;
         case 38:
@@ -41,6 +46,10 @@ class Deck extends Component {
           break;
         case 39:
           //right
+          this.nextSlide();
+          break;
+        case 34:
+          //pageDown
           this.nextSlide();
           break;
         case 40:

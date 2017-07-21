@@ -27,7 +27,7 @@ import theme from 'react-syntax-highlighter/dist/styles/monokai-sublime';
 class Home extends Component {
   render() {
     return (
-      <Deck navigation={true} routing={true} slideCount={true} color="#1D1F27">
+      <Deck navigation={false} routing={true} slideCount={true} color="#1D1F27">
         <Slide transition="cross-fade" bgColor="#1D1F27">
           <Center>
             <H1 color="rgb(219, 112, 147)">Slides at</H1>
@@ -346,7 +346,7 @@ ul, ol { color: #333; text-transform: uppercase; }
         <Slide transition="cross-fade" bgColor="#1D1F27">
           <Center>
             <H4 color="rgb(219, 112, 147)" left>
-              - Compulation Step Needed
+              - Compilation Step Needed
             </H4>
             <H4 color="#DA9962" left>
               - Still stuck in Cascade hell
