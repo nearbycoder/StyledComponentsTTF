@@ -847,7 +847,7 @@ const Container = styled.div`\n\
         <Slide transition="cross-fade" bgColor="#1D1F27">
           <Center>
             <H4 color="#DA9962">
-              Themeing
+              Theming
             </H4>
             <SyntaxHighlighter language="javascript" style={theme}>
               {
