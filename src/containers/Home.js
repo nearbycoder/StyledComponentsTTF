@@ -32,6 +32,9 @@ class Home extends Component {
           <Center>
             <H1 color="rgb(219, 112, 147)">Slides at</H1>
             <H3 color="#DA9962">styled.nearbycoder.com</H3>
+            <H5 color="rgb(219, 112, 147)">
+              https://github.com/nearbycoder/StyledComponentsTTF
+            </H5>
           </Center>
         </Slide>
         <Slide transition="cross-fade" bgColor="#1D1F27">
